@@ -13,5 +13,5 @@ spring:
       maximum-pool-size: 10
 
 app:
-  service-name: Identity Service
+  service-name: Payment Service
   message: Identity configuration loaded from GitHub
