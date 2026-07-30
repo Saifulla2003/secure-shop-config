@@ -1,1 +1,21 @@
 
+server:
+  port: 8086
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/payment_db
+    username: postgres
+    password: Saifu@1234
+
+    hikari:
+      minimum-idle: 2
+      maximum-pool-size: 10
+
+services:
+  order:
+    base-url: http://localhost:8082
+
+app:
+  service-name: Order Service
+  message: Payment configuration loaded from GitHub
