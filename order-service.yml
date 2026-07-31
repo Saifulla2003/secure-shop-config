@@ -1,10 +1,10 @@
 
 server:
-  port: 8086
+  port: 0
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/payment_db
+    url: jdbc:postgresql://localhost:5432/Order_db
     username: postgres
     password: Saifu@1234
 
